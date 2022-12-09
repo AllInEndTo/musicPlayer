@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div id="phone">
+        <div id="top-menu">
+            <div class="button"><i class="fas fa-arrow-left"></i></div>
+            <div class="small-text">playing now</div>
+            <div class="button"><i class="fas fa-bars"></i></div>
+        </div>
+        <div class="thumbnail-border">
+            <div class="song-thumbnail"></div>
+        </div>
+        <div id="song-detalis">
+            <h1 class="song-title">On My Own</h1>
+            <span class="artist">Darci</span>
+        </div>
+
+        <div id="time-slider">
+            <div class="slider-items">
+                <span>1:22</span>
+                <span>3:54</span>
+            </div>
+            <input type="range" min="1" max="100" id="myRange" value="50" class="slider"/>
+        </div>
+        <div id="song-controls">
+            <div class="button"><i class="fas fa-backward"></i></div>
+            <div class="button"><i class="fas fa-pause"></i></div>
+            <div class="button"><i class="fas fa-forward"></i></div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+</body>
+</html>
